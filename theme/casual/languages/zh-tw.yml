@@ -1,0 +1,19 @@
+home: 首頁
+archive: 歷史文章
+tags: 標籤
+about: 關於
+rss: 訂閱
+resume: 就是我
+
+search: 搜尋
+
+recent:
+  posts: 最近發表
+  comments: 最近討論
+
+prev_text: 前一頁
+next_text: 後一頁
+prev_post: 上一篇
+next_post: 下一篇
+
+read_times: 瀏覽次數：
