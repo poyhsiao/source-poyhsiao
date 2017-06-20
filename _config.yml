@@ -64,7 +64,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: casual
+theme: hiero
 
 # plugins
 ## hexo-renderer-sass
