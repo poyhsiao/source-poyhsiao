@@ -7,12 +7,14 @@ title: Kimz Index
 subtitle: Hey whatz up
 description:
 author: Kim Hsiao
-language: zh-tw
+language: zh-TW
+# language: default
 timezone: Asia/Taipei
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://poyhsiao.github.io
+# url: https://poyhsiao.github.io
+url: http://poyhsiao.giikr.info
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,6 +74,41 @@ node_sass:
   outputStyle: nested
   precision: 5
   sourceComments: false
+
+## hexo-all-minifier
+html_minifier:
+  enable: true
+  ignore_error: false
+  exclude:
+
+css_minifier:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+js_minifier:
+  enable: true
+  mangle: true
+  output:
+  compress: 
+  exclude:
+    - '*.min.js'
+
+image_minifier:
+  enable: true
+  interlaced: false
+  multipass: false
+  optimizationLevel: 3
+  pngquant: false
+  progressive: false
+
+# tags
+tag_generator:
+  per_page: 10
+
+# categories
+category_generator:
+  per_page: 10
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

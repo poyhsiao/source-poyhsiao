@@ -1,3 +1,3 @@
 #!/bin/sh
 
-$(which hexo) generate -d
+./node_modules/hexo/bin/hexo generate -d

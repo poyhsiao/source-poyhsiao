@@ -4,5 +4,5 @@ if [ "${1}" == "" ]; then
   echo "Only available parameters can be either: \n"
   echo "=> page, post, route, tag, category"
 else
-  $(which hexo) list ${1}
+  ./node_modules/hexo/bin/hexo list ${1}
 fi

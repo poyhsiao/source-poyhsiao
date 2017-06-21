@@ -31,7 +31,10 @@ avatar:
   
 
 # AboutPage background
-about_big_image: [css/images/pose.jpg, https://source.unsplash.com/collection/954550/1920x1080]
+# about_big_image: [css/images/pose.jpg, https://source.unsplash.com/collection/954550/1920x1080]
+about_big_image: [
+  https://unsplash.it/640/480?random
+]
 
 
 # Homepage thumbnail
@@ -130,6 +133,9 @@ facebook_sdk:
 
 # CNZZ count
 cnzz_siteid: 1262380837
+
+# Shareaholic
+shareaholic_code: a3988232fa3b8f7b00b435ce0ade0df8
 
 # donation button
 donate:

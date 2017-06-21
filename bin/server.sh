@@ -1,3 +1,3 @@
 #!/bin/sh
 
-$(which hexo) server
+./node_modules/hexo/bin/hexo server
