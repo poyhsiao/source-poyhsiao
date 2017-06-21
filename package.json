@@ -17,6 +17,7 @@
     "hexo-generator-index-i18n": "^0.2.0",
     "hexo-generator-json-content": "^3.0.1",
     "hexo-generator-search": "^2.1.1",
+    "hexo-generator-seo-friendly-sitemap": "^0.0.21",
     "hexo-generator-sitemap": "^1.2.0",
     "hexo-generator-tag": "^0.2.0",
     "hexo-pagination": "^0.1.0",
