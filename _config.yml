@@ -117,5 +117,5 @@ category_generator:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: gitls
+  type: git
   repo: git@github.com:poyhsiao/poyhsiao.github.io.git
