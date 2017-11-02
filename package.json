@@ -3,7 +3,12 @@
   "version": "0.0.0",
   "private": true,
   "hexo": {
-    "version": "3.3.7"
+    "version": "3.4.0"
+  },
+  "scripts": {
+    "_command": "./node_modules/.bin/hexo",
+    "local": "npm run _command server",
+    "upload": "git push"
   },
   "dependencies": {
     "hexo": "^3.2.0",

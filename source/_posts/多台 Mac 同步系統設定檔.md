@@ -15,6 +15,8 @@ categories:
 
 唯一擔心的，就是多台電腦間，設定檔的同步問題，像是常會遇到的 browser, application setting 等問題，不過有些項目設定起來有點麻煩，所以至少，先同步一些常用的設定檔案
 
+<!-- more -->
+
 ## 目的
 
 這次目的也算是很簡單，至少我要先同步 `.zshrc` (oh-my-zsh), `.vimrc` (vim) 以及 `.ssh` (ssh - folder) 等幾個項目，當然方法有幾個，例如，使用 git 之類的服務，或是使用同步檔案的服務，如 dropbox 之類的
